@@ -12,7 +12,6 @@ int main()
         printf("Enter a number ");
         scanf("%d",&a[i]);
 
-
         if(max<a[i])
         {
             max=a[i];
@@ -28,7 +27,9 @@ int main()
     }
 
     avg=(float) sum/10;
-    printf("Maximum value is %d \nMinimum value is %d \nAverage value is %.2f\n",max,min,avg);
+
+    printf("Maximum value is %d \nMinimum value is %d \nAverage value is %.2f",max,min,avg);
+    printf("\n");
 
     for (int i=10;i>=0;i--)
     {
